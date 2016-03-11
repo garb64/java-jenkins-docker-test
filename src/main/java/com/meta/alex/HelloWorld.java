@@ -20,6 +20,6 @@ public class HelloWorld {
      * @return String
      */
     private String doSomethingUseful() {
-        return "Hello World 2";
+        return "Hello World";
     }
 }
