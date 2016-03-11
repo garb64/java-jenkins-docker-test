@@ -1,12 +1,12 @@
 package com.meta.alex;
 
 /**
- * Created by oywjq3z on 11.03.2016.
+ * Created by Alex on 11.03.2016.
  */
 public class HelloWorld {
 
     /**
-     * Public method to be used
+     * Public method to be unit tested
      *
      * @return String
      */
@@ -15,11 +15,11 @@ public class HelloWorld {
     }
 
     /**
-     * Private method to be unit tested
+     * Private method
      *
      * @return String
      */
     private String doSomethingUseful() {
-        return "Hello World";
+        return "Hello World 2";
     }
 }
