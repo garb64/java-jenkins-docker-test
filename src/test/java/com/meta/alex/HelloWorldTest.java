@@ -12,6 +12,6 @@ public class HelloWorldTest {
     @org.junit.Test
     public void testRunMe() throws Exception {
         hw = new HelloWorld();
-        assertEquals("Here is test for Hello World String: ", "Hello World", hw.runMe());
+        assertEquals("Here is test for Hello World String: ", "Hello World nope", hw.runMe());
     }
 }
