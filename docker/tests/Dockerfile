@@ -8,7 +8,7 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-# Mount all volumes, reuse .m2 and run test
+# Create directory for sources
 RUN mkdir /source
-VOLUME ["/source"]
+WORKDIR /source
 CMD mvn test
